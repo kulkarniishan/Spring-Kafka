@@ -1,4 +1,4 @@
-package com.springkafka.consumer.config;
+package com.springkafka.producer.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
