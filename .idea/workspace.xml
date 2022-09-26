@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c86694a-f562-444b-bcc4-17ce896857a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/producer/config/KafkaProducerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springkafka/consumer/KafkaListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springkafka/consumer/config/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/consumer/config/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/consumer/controller/ProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springkafka/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springkafka/producer/ProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springkafka/consumer/config/KafkaTopicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/producer/config/KafkaTopicConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/springkafka/consumer/ConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/com/springkafka/producer/ConsumerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/producer/ProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/com/springkafka/producer/ProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/com/springkafka/producer/ProducerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/springkafka/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springkafka/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/springkafka/producer/ProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/com/springkafka/consumer/ProducerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/consumer/ProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/producer/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/consumer/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/springkafka/producer/config/KafkaTopicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/springkafka/consumer/config/KafkaTopicConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/test/java/com/springkafka/producer/ConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/com/springkafka/consumer/ConsumerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -81,11 +83,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/spring-kafka&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/spring-kafka/consumer/src/main/java/com/springkafka/producer&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\spring-kafka\consumer\src\main\java\com\springkafka\producer" />
       <recent name="D:\spring-kafka" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -97,13 +104,13 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.springkafka.producer.ProducerApplication">
-    <configuration name="ProducerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springkafka.consumer.ProducerApplication" />
-      <module name="producer" />
+  <component name="RunManager" selected="Application.com.springkafka.consumer.ConsumerApplication (1)">
+    <configuration name="ConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springkafka.producer.ConsumerApplication" />
+      <module name="consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springkafka.producer.*" />
+          <option name="PATTERN" value="com.springkafka.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +118,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.springkafka.producer.ProducerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springkafka.producer.ProducerApplication" />
+    <configuration name="ProducerApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springkafka.consumer.ProducerApplication" />
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springkafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springkafka.consumer.ProducerApplication" />
       <module name="producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springkafka.producer.*" />
+          <option name="PATTERN" value="com.springkafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.springkafka.consumer.ConsumerApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springkafka.consumer.ConsumerApplication" />
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springkafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.springkafka.consumer.ConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springkafka.consumer.ConsumerApplication" />
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springkafka.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,9 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.springkafka.producer.ProducerApplication" />
-        <item itemvalue="Application.ProducerApplication" />
+        <item itemvalue="Application.com.springkafka.consumer.ConsumerApplication (1)" />
+        <item itemvalue="Application.ProducerApplication (1)" />
         <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Application.com.springkafka.consumer.ConsumerApplication" />
+        <item itemvalue="Application.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>

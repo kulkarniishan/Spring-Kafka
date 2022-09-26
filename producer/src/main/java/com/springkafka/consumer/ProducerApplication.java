@@ -1,4 +1,4 @@
-package com.springkafka.producer;
+package com.springkafka.consumer;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -14,7 +14,10 @@ public class ProducerApplication {
 
 	CommandLineRunner commandLineRunner(KafkaTemplate<String,String> kafkaTemplate){
 		return args -> {
-		kafkaTemplate.send("message","helloWorld");
+			for (int i = 0; i < 100; i++) {
+				System.out.println("Message created!");
+				kafkaTemplate.send("message","hello World" + i);
+			}
 		};
 	}
 }
